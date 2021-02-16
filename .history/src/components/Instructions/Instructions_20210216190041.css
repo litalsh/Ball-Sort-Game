@@ -1,0 +1,24 @@
+.close-instructions{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 5px;
+  background: darkslategray;
+  color: #fff;
+  border: none;
+}
+
+.hide {
+  display: none;
+}
+
+.instructions-container{
+  width: 70%;
+  height: 60%;
+  position: absolute;
+  z-index: 100;
+  background: #fff;
+  border-radius: 10px;
+  opacity: 0.9;
+}

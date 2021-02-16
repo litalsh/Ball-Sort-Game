@@ -1,9 +1,9 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import Tube from '../Tube/Tube';
 import './Board.css'
 import { v4 as uuidv4 } from 'uuid';
 import Confetti from 'react-dom-confetti';
-import Instructions from '../Instructions/Instructions';
+
 
 import { ballsContext } from '../context/store';
 
@@ -11,7 +11,6 @@ import { ballsContext } from '../context/store';
 const Board = (props) => {
 
   const { randomBalls, completed, undoHandler, undoCount, restartHandler } = useContext(ballsContext);
-  const [instructionsDisply, setInstructionsDisply] = useState('hide');
 
   const config = {
     angle: 90,
@@ -29,10 +28,8 @@ const Board = (props) => {
 
   return (
     <div className='board-container'>
-      {instructionsDisply === 'show' ? <Instructions display={setInstructionsDisply} /> : null }
       <header className='header'>
       <Confetti active={completed} config={config} />
-        <button className='header-controls'onClick={()=>setInstructionsDisply('show')}>How to play</button>
         <button className='header-controls' onClick={() => window.location.reload()}>New game</button>
         <button className='header-controls' onClick={() => restartHandler()}>Reset</button>
         <button className='header-controls' onClick={() => undoHandler()}>Undo {undoCount}</button>

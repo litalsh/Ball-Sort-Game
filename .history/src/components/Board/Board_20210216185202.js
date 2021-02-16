@@ -3,9 +3,10 @@ import Tube from '../Tube/Tube';
 import './Board.css'
 import { v4 as uuidv4 } from 'uuid';
 import Confetti from 'react-dom-confetti';
-import Instructions from '../Instructions/Instructions';
+
 
 import { ballsContext } from '../context/store';
+import Instructions from '../Instructions/Instructions';
 
 
 const Board = (props) => {

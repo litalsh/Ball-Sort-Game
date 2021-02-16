@@ -21,17 +21,16 @@
 
 h3 {
   align-self: center;
+  margin-top: 50px;
   color: #fff;
   letter-spacing: 0.1em;
 }
 
 p {
   align-self: center;
-  text-align: center;
   margin-top: 50px;
   color: #fff;
   letter-spacing: 0.1em;
-  font-size: 0.8rem;
 }
 
 :root {

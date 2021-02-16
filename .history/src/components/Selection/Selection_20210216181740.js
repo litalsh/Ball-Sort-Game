@@ -10,7 +10,6 @@ const Selection = (props) => {
   
   return (
     <div className='selection-container'>
-      <p> Try to sort the colored balls in the tubes until all balls with the same color stay in the same tube.</p>
       <h3>How many colors would you like to sort?</h3>
       <div className='selections'>
         {props.colors.map((color) => (
