@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "//litalsh.github.io/Ball-Sort-Game/static/css/main.1de7a243.chunk.css",
-    "main.js": "//litalsh.github.io/Ball-Sort-Game/static/js/main.1a8b2006.chunk.js",
-    "main.js.map": "//litalsh.github.io/Ball-Sort-Game/static/js/main.1a8b2006.chunk.js.map",
-    "runtime-main.js": "//litalsh.github.io/Ball-Sort-Game/static/js/runtime-main.47daa448.js",
-    "runtime-main.js.map": "//litalsh.github.io/Ball-Sort-Game/static/js/runtime-main.47daa448.js.map",
-    "static/js/2.b26c5d59.chunk.js": "//litalsh.github.io/Ball-Sort-Game/static/js/2.b26c5d59.chunk.js",
-    "static/js/2.b26c5d59.chunk.js.map": "//litalsh.github.io/Ball-Sort-Game/static/js/2.b26c5d59.chunk.js.map",
-    "static/js/3.66971a11.chunk.js": "//litalsh.github.io/Ball-Sort-Game/static/js/3.66971a11.chunk.js",
-    "static/js/3.66971a11.chunk.js.map": "//litalsh.github.io/Ball-Sort-Game/static/js/3.66971a11.chunk.js.map",
-    "index.html": "//litalsh.github.io/Ball-Sort-Game/index.html",
-    "static/css/main.1de7a243.chunk.css.map": "//litalsh.github.io/Ball-Sort-Game/static/css/main.1de7a243.chunk.css.map",
-    "static/js/2.b26c5d59.chunk.js.LICENSE.txt": "//litalsh.github.io/Ball-Sort-Game/static/js/2.b26c5d59.chunk.js.LICENSE.txt"
+    "main.css": "/Ball-Sort-Game/static/css/main.4665751c.chunk.css",
+    "main.js": "/Ball-Sort-Game/static/js/main.76fc6060.chunk.js",
+    "main.js.map": "/Ball-Sort-Game/static/js/main.76fc6060.chunk.js.map",
+    "runtime-main.js": "/Ball-Sort-Game/static/js/runtime-main.d9b413b1.js",
+    "runtime-main.js.map": "/Ball-Sort-Game/static/js/runtime-main.d9b413b1.js.map",
+    "static/js/2.cb3a3649.chunk.js": "/Ball-Sort-Game/static/js/2.cb3a3649.chunk.js",
+    "static/js/2.cb3a3649.chunk.js.map": "/Ball-Sort-Game/static/js/2.cb3a3649.chunk.js.map",
+    "static/js/3.85cf7a5b.chunk.js": "/Ball-Sort-Game/static/js/3.85cf7a5b.chunk.js",
+    "static/js/3.85cf7a5b.chunk.js.map": "/Ball-Sort-Game/static/js/3.85cf7a5b.chunk.js.map",
+    "index.html": "/Ball-Sort-Game/index.html",
+    "static/css/main.4665751c.chunk.css.map": "/Ball-Sort-Game/static/css/main.4665751c.chunk.css.map",
+    "static/js/2.cb3a3649.chunk.js.LICENSE.txt": "/Ball-Sort-Game/static/js/2.cb3a3649.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.47daa448.js",
-    "static/js/2.b26c5d59.chunk.js",
-    "static/css/main.1de7a243.chunk.css",
-    "static/js/main.1a8b2006.chunk.js"
+    "static/js/runtime-main.d9b413b1.js",
+    "static/js/2.cb3a3649.chunk.js",
+    "static/css/main.4665751c.chunk.css",
+    "static/js/main.76fc6060.chunk.js"
   ]
 }
