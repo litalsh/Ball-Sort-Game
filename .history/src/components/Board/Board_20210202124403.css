@@ -1,0 +1,30 @@
+.board-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+
+.tubes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.header-controls {
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  border: 2px solid darkslategray;
+  border-radius: 10px;
+  background: grey;
+  color: darkslategray;
+}

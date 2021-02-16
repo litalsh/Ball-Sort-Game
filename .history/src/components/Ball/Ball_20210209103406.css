@@ -1,0 +1,28 @@
+.chosen{
+  position: relative;
+  top: calc(var(--tube-width) * -1);
+}
+
+.ball {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  align-self: center;  
+  margin: 5px;
+  width: calc(var(--tube-width) - 8px);
+  min-width: 42px;
+  min-height: 42px;
+  height: calc(var(--tube-width) - 8px);
+  border-radius: 50%;
+}
+
+@media (min-height: 480px) and (max-width: 480px) {
+  .ball {
+    width: 35px;
+    height: 35px;
+  }
+  .chosen {
+    top: -35px;
+  }
+}

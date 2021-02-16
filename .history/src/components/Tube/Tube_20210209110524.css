@@ -1,0 +1,25 @@
+/* :root {
+  --tube-width: 5vw;
+  --tube-height: calc(var(--tube-width) * 4);
+} */
+
+.tube {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 40px;
+  height: 165px;
+  margin: 40px 10px 10px 10px;
+  cursor: pointer;
+  border-radius: 3px 3px 0.5em 0.5em;
+  border-top: none;
+  background: #EBEDEF;
+  justify-self: center;
+}
+
+/* @media (min-height: 480px) and (max-width: 480px) {
+  .tube {
+    width: 40px;
+    height: 165px;
+    margin: 40px 10px 10px 10px;
+  }
+} */

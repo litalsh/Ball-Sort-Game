@@ -1,0 +1,67 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap'); */
+
+
+.board-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  min-width: 320px;
+}
+
+.tubes-container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 3rem;
+}
+
+.header-controls {
+  width: 33.3%;
+  height: 100%;
+  margin: 10px;
+  border: none;
+  background: none;
+  color: #EBEDEF;
+  font-size: 1rem;
+  font-family: 'Maven Pro', sans-serif;
+
+}
+
+.header-controls:hover {
+  color: grey;
+}
+
+.header-controls:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* .tubes3 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.tubes4 {
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+}
+.tubes5, .tubes6 {
+  grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+}
+.tubes7, .tubes8 {
+  grid-template: repeat(2, 1fr) / repeat(5, 1fr);
+} */
+

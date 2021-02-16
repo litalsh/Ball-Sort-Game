@@ -1,0 +1,5 @@
+.tube {
+  border: 2px solid darkslategray;
+  border-radius: 0 0 5px 5px;
+  border-top: none;
+}

@@ -1,0 +1,10 @@
+.tube {
+  border: 2px solid darkslategray;
+  border-radius: 0 0 5px 5px;
+  border-top: none;
+  margin: 15px;
+  width: 75px;
+  height: 265px;
+  display: flex;
+  flex-direction: column-reverse;
+}

@@ -1,0 +1,16 @@
+:root {
+  --tube-width: calc(var(--tube-height) / 4);
+  --tube-height: 30vh;
+}
+
+.tube {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: var(--tube-width) calc(var(--tube-width) / 4) calc(var(--tube-width) / 4) calc(var(--tube-width) / 4);
+  width: var(--tube-width);
+  height: var(--tube-height);
+  cursor: pointer;
+  border-radius: 3px 3px 0.5em 0.5em;
+  border-top: none;
+  background: #EBEDEF;
+}

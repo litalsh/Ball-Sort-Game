@@ -1,0 +1,10 @@
+.chosen{
+  position: relative;
+  top: -50px;
+}
+
+.ball {
+  width: calc(var(--tube-width)-4px);
+  height: calc(var(--tube-width)-4px);
+  border-radius: 50%;
+}

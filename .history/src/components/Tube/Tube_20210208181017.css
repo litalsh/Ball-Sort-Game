@@ -1,0 +1,18 @@
+:root {
+  --tube-width: 5vw;
+  --tube-height: calc(var(--tube-width) * 4);
+}
+
+.tube {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: var(--tube-width) 25px calc(var(--tube-width) / 4) 25px;
+  width: var(--tube-width);
+  min-width: 50px;
+  min-height: 210px;
+  height: var(--tube-height);
+  cursor: pointer;
+  border-radius: 3px 3px 0.5em 0.5em;
+  border-top: none;
+  background: #EBEDEF;
+}

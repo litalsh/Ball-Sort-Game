@@ -1,0 +1,16 @@
+:root {
+  --tube-width: 12vh;
+}
+
+.tube {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 15px;
+  width: var(--tube-width);
+  height: calc(var(--tube-width) * 4 + 10px);
+  cursor: pointer;
+  border: 2px solid darkslategray;
+  border-radius: 5px 5px calc(var(--tube-width) / 2) calc(var(--tube-width) / 2);
+  border-top: none;
+  background: #cfcdca;
+}

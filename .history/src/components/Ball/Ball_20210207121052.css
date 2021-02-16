@@ -1,0 +1,15 @@
+.chosen{
+  position: relative;
+  top: -50px;
+}
+
+.ball {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  align-self: center;  margin: 5px;
+  width: calc(var(--tube-width) - 5px);
+  height: calc(var(--tube-width) - 5px);
+  border-radius: 50%;
+}
